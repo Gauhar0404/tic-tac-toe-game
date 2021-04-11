@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    background-color: rgb(19, 104, 75);
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 200px); /* repeat(3,100px)*/
+    grid-template-rows: repeat(3, 200px); /* repeat(3,100px)*/
+    margin: 50px;
+    justify-content: center;
+  }
+  .cell {
+    border: 2px solid white;
+  }
+  .x,
+  .o {
+    padding: 20px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: yellowgreen;
+  }
+  .x {
+    color: rgb(251, 166, 28);
+  }
+  h1,
+  h3 {
+    color: white;
+    font-size: 35px;
+  }
+  h1 {
+    margin-top: 100px;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 10px;
+  }
